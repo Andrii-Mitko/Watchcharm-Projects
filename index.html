@@ -255,9 +255,7 @@
               reflects your personality and style. So why settle for anything
               less than the best?
             </p>
-            <button class="btn-about" type="button" href="#catalog">
-              View catalog
-            </button>
+            <button class="btn-about" type="button">View catalog</button>
           </div>
           <picture>
             <source
@@ -291,15 +289,29 @@
       <section class="section" id="catalog">
         <div class="container">
           <h2 class="catalog-title">Catalog</h2>
-          <div class="catalog-div-card">
-            <ul>
+          <div class="div-card">
+            <ul class="catalog-div-card">
               <li class="catalog-watch">
                 <div class="catalog-foto">
                   <picture class="catalog-foto-picture">
+                    <source
+                      srcset="
+                        ./image/catalog-watch-desktop1@1x.png 1x,
+                        ./image/catalog-watch-desktop1@2x.png 2x
+                      "
+                      media="(min-width: 1158px)"
+                    />
+                    <source
+                      srcset="
+                        ./image/catalog-watch-tablet1@1x.png 1x,
+                        ./image/catalog-watch-tablet1@2x.png 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
                     <img
                       class="catalog-foto-item"
-                      src="./image/catalog-watch1@1x.jpg"
-                      srcset="./image/catalog-watch1@2x.jpg 2x"
+                      src="./image/catalog-watch1@1x.png"
+                      srcset="./image/catalog-watch1@2x.png 2x"
                       alt="watch1"
                       width="208"
                     />
@@ -309,36 +321,163 @@
                 <p class="catalog-price">&euro;500</p>
               </li>
               <li class="catalog-watch">
-                <img
-                  src="./image/watch2.png"
-                  alt="watch2"
-                  width="292"
-                  height="292"
-                />
-                <h3>Garmin Marq Athlete</h3>
-                <p>&euro;450</p>
+                <div class="catalog-foto">
+                  <picture class="catalog-foto-picture">
+                    <source
+                      srcset="
+                        ./image/catalog-watch-desktop2@1x.png 1x,
+                        ./image/catalog-watch-desktop2@2x.png 2x
+                      "
+                      media="(min-width: 1158px)"
+                    />
+                    <source
+                      srcset="
+                        ./image/catalog-watch-tablet2@1x.png 1x,
+                        ./image/catalog-watch-tablet2@2x.png 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <img
+                      class="catalog-foto-item"
+                      src="./image/catalog-watch2@1x.png"
+                      srcset="./image/catalog-watch2@2x.png 2x"
+                      alt="watch1"
+                      width="208"
+                    />
+                  </picture>
+                </div>
+                <h3 class="catalog-name">Garmin Marq Athlete</h3>
+                <p class="catalog-price">&euro;450</p>
               </li>
               <li class="catalog-watch">
-                <img
-                  src="./image/watch3.png"
-                  alt="watch3"
-                  width="292"
-                  height="292"
-                />
-                <h3>Garmin Descent MK1</h3>
-                <p>&euro;680</p>
+                <div class="catalog-foto">
+                  <picture class="catalog-foto-picture">
+                    <source
+                      srcset="
+                        ./image/catalog-watch-desktop3@1x.png 1x,
+                        ./image/catalog-watch-desktop3@2x.png 2x
+                      "
+                      media="(min-width: 1158px)"
+                    />
+                    <source
+                      srcset="
+                        ./image/catalog-watch-tablet3@1x.png 1x,
+                        ./image/catalog-watch-tablet3@2x.png 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <img
+                      class="catalog-foto-item"
+                      src="./image/catalog-watch3@1x.png"
+                      srcset="./image/catalog-watch3@2x.png 2x"
+                      alt="watch1"
+                      width="208"
+                    />
+                  </picture>
+                </div>
+                <h3 class="catalog-name">Garmin Descent MK1</h3>
+                <p class="catalog-price">&euro;680</p>
               </li>
               <li class="catalog-watch">
-                <img
-                  src="./image/watch4.png"
-                  alt="watch4"
-                  width="292"
-                  height="292"
-                />
-                <h3>Garmin D2 Delta PX</h3>
-                <p>&euro;380</p>
+                <div class="catalog-foto">
+                  <picture class="catalog-foto-picture">
+                    <source
+                      srcset="
+                        ./image/catalog-watch-desktop4@1x.png 1x,
+                        ./image/catalog-watch-desktop4@2x.png 2x
+                      "
+                      media="(min-width: 1158px)"
+                    />
+                    <source
+                      srcset="
+                        ./image/catalog-watch-tablet4@1x.png 1x,
+                        ./image/catalog-watch-tablet4@2x.png 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <img
+                      class="catalog-foto-item"
+                      src="./image/catalog-watch4@1x.png"
+                      srcset="./image/catalog-watch4@2x.png 2x"
+                      alt="watch1"
+                      width="208"
+                    />
+                  </picture>
+                </div>
+                <h3 class="catalog-name">Garmin D2 Delta PX</h3>
+                <p class="catalog-price">&euro;380</p>
+              </li>
+              <li class="catalog-watch catalog-more">
+                <div class="catalog-foto">
+                  <picture class="catalog-foto-picture">
+                    <source
+                      srcset="
+                        ./image/catalog-watch-desktop5@1x.png 1x,
+                        ./image/catalog-watch-desktop5@2x.png 2x
+                      "
+                      media="(min-width: 1158px)"
+                    />
+                    <source
+                      srcset="
+                        ./image/catalog-watch-tablet5@1x.png 1x,
+                        ./image/catalog-watch-tablet5@2x.png 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <img
+                      class="catalog-foto-item"
+                      src="./image/catalog-watch5@1x.png"
+                      srcset="./image/catalog-watch5@2x.png 2x"
+                      alt="watch1"
+                      width="208"
+                    />
+                  </picture>
+                </div>
+                <h3 class="catalog-name">Garmin Fenix 6 Pro Solar</h3>
+                <p class="catalog-price">&euro;400</p>
+              </li>
+              <li class="catalog-watch catalog-more">
+                <div class="catalog-foto">
+                  <picture class="catalog-foto-picture">
+                    <source
+                      srcset="
+                        ./image/catalog-watch-desktop6@1x.png 1x,
+                        ./image/catalog-watch-desktop6@2x.png 2x
+                      "
+                      media="(min-width: 1158px)"
+                    />
+                    <source
+                      srcset="
+                        ./image/catalog-watch-tablet6@1x.png 1x,
+                        ./image/catalog-watch-tablet6@2x.png 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <img
+                      class="catalog-foto-item"
+                      src="./image/catalog-watch6@1x.png"
+                      srcset="./image/catalog-watch6@2x.png 2x"
+                      alt="watch1"
+                      width="208"
+                    />
+                  </picture>
+                </div>
+                <h3 class="catalog-name">
+                  Tube Watch S42 Date Steel With Black Case
+                </h3>
+                <p class="catalog-price">&euro;395</p>
               </li>
             </ul>
+            <button class="btn-more" type="button">Show more</button>
+          </div>
+          <div class="catalog-story">
+            <p class="catalog-story-text">
+              Choose <span class="catalog-story-span">your story</span>, making
+              every moment unique. Time is your style, and we reveal it.
+            </p>
+            <button class="btn-story" type="button">
+              <span class="span-btn">Contact Us</span>
+            </button>
           </div>
         </div>
       </section>
