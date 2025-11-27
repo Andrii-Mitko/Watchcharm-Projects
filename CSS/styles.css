@@ -502,3 +502,42 @@ button {
 }
 
 /* #endregion About Us */
+
+/* #region Catalog */
+.catalog-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 24px;
+}
+.catalog-watch {
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  background-color: #f3f3f3;
+
+  border-radius: 30px;
+  padding: 24px 28px;
+  margin-bottom: 20px;
+}
+
+.catalog-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+}
+.catalog-name {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.5);
+}
+
+.catalog-foto-item {
+  margin: 18px 36px 18px 35px;
+}
+
+/* #endregion Catalog */
