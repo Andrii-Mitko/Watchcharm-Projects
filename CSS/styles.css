@@ -200,8 +200,10 @@ button {
     width: 36px;
     height: 36px;
     fill: #0c0c0c;
-    opacity: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition: border-color fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition:
+      border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .social-link:hover .icon-social,
@@ -236,7 +238,8 @@ button {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  transition:
+    opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 @media (min-resolution: 192dpi) {
@@ -599,7 +602,8 @@ button {
   width: 160px;
   height: 48px;
   background-color: transparent;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  transition:
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .span-btn {
@@ -621,6 +625,11 @@ button {
   .catalog-more {
     display: block;
   }
+
+  .catalog-div-card.is-expanded .catalog-more {
+    display: block;
+  }
+
   .catalog-title {
     font-size: 48px;
     line-height: 0.92;

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -475,9 +475,9 @@
             Choose <span class="catalog-story-span">your story</span>, making
             every moment unique. Time is your style, and we reveal it.
           </p>
-          <button class="btn-story" type="button">
+          <a class="btn-story" href="#contact">
             <span class="span-btn">Contact Us</span>
-          </button>
+          </a>
         </div>
       </section>
       <!-- #endregion story -->
@@ -625,7 +625,7 @@
       <!-- #endregion Sale -->
 
       <!-- #region Reviews -->
-      <section class="section">
+      <section class="section" id="reviews">
         <div class="container">
           <h2 class="reviews-title">Reviews</h2>
           <ul class="reviews-list">
@@ -680,11 +680,11 @@
       <!-- #endregion Reviews -->
 
       <!-- #region Contact Us -->
-      <section class="section">
+      <section class="section" id="contact">
         <div class="container">
           <h2 class="contact-title">Contact Us</h2>
           <div class="contact-wrapper">
-            <form class="contact-form">
+            <form class="contact-form" method="post">
               <p class="contact-text">
                 Please use the form below to contact us. Enter your name, email,
                 phone, and message and we'll get back to you shortly.
@@ -727,6 +727,7 @@
                 placeholder="Comment"
               ></textarea>
               <button class="btn-contact" type="submit">Send</button>
+              <p class="form-status" role="status" aria-live="polite"></p>
             </form>
             <picture>
               <source
