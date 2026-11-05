@@ -618,15 +618,15 @@ button {
   display: none;
 }
 
+.catalog-div-card.is-expanded .catalog-more {
+  display: block;
+}
+
 @media screen and (min-width: 768px) {
   .btn-more {
     display: none;
   }
   .catalog-more {
-    display: block;
-  }
-
-  .catalog-div-card.is-expanded .catalog-more {
     display: block;
   }
 
